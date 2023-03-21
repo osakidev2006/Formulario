@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Produto</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+          <label for="iproduto">Produto</label>
+          <br>
+          <input type="text" id="iproduto" name="txtproduto" placeholder="Digite o nome do produto">
+          <br>
+          <label for="icadastro">Data de cadastro</label>
+          <br>
+          <input type="date" id="icadastro" name="dacadastro">
+          <br>
+          <label for="icategoria"> Categoria</label>
+          <br>
+          <select name="categoria" id="icategoria">
+            <option value="L">Livros</option>
+            <option value="C">Cadernos</option>
+            <br>
+          </select>
+          <br>
+        <label for="ipeso">Peso(kg)</label>
+        <br>
+        <input type="number" id="ipeso" name="nupeso">
+        <br>
+        <label>Situação</label>
+        <br>
+        <input type="radio" name="rsituacao" id="inovo" value="N">
+        <label for="inovo">Novo</label>
+        <br>
+        <input type="radio" name="rsituacao" id="ivelho" value="V">
+        <label for="ivelho">Velho</label>
+        <br>
+        <label for="idescricao">Descrição</label>
+         <textarea name="txtdescricao" id="idescricao" cols="30" rows="10"></textarea>
+         <br>
+         <label for="vol">Avaliação(0-10)</label>
+         <input type="range" id="vol" name="vol" min="0" max="10">
+         <br>
+         <input type="reset" id="ientra" name="sentrar" value="ENTRAR">
+         <input type="reset" id="isai" name="sentrar" value="SAIR">
+         <br>   
+</body>
+</html>
